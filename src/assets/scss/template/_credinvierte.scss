@@ -1,50 +1,47 @@
 //Colors
-$primary-color: #0747A6;
-$primary-gray: #333333;
-$primary-gray-medium: #999999;
-$primary-gray-light: #F4F5F7;
+$primary-color: #1B3E77;
+$primary-dark: #080E15;
+$primary-light: #F5F1D5;
+$primary-danger: #A21827;
 
 //Utilities
 
 .credi-u-fill-color--primary {
   background-color: $primary-color!important;
 }
+.credi-u-fill-color--light {
+  background-color: $primary-light!important;
+}
 
 .credi-u-fill-color--gray {
-  background-color: $primary-gray !important;
+  background-color: $primary-dark !important;
+}
+.credi-u-fill-color--danger {
+  background-color: $primary-danger !important;
 }
 
-.credi-u-fill-color--gray-light {
-  background-color: $primary-gray-light !important;
-}
-
-.credi-u-fill-color--gray-medium {
-  background-color: $primary-gray-medium !important;
-}
 
 .credi-u-color--primary {
   color: $primary-color;
 }
-
-.credi-u-color--gray {
-  color: $primary-gray;
+.credi-u-color--danger {
+  color: $primary-danger;
 }
 
-.credi-u-color--gray-light {
-  color: $primary-gray-light;
+.credi-u-color--gray {
+  color: $primary-dark;
+}
+.credi-u-color--light {
+  color: $primary-light;
 }
 
 .credi-u-border-color--primary {
   border-color: $primary-color !important;
 }
 
-.credi-u-border-color--gray-light {
-  border-color: $primary-gray-light !important;
-}
-
 .credi-u-img-logo {
-  width: 224px;
-  height: auto;
+  width: auto;
+  height: 50px;
 }
 
 .credi-u-margin--none {
@@ -89,7 +86,7 @@ $primary-gray-light: #F4F5F7;
 .credi-u-hr-gray--1 {
   border-width: 1px;
   border-style: solid;
-  border-color: $primary-gray;
+  border-color: $primary-dark;
 }
 .credi-u-hr-primary--1 {
   border-width: 1px;
