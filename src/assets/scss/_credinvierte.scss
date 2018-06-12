@@ -1,0 +1,63 @@
+//Colors
+$primary-color: #3581db;
+$primary-gray: #333333;
+$primary-gray-light: rgb(243, 243, 242);
+
+//Utilities
+
+.credi-u-fill-color--primary {
+  background-color: $primary-color!important;
+}
+.credi-u-fill-color--gray {
+  background-color: $primary-gray !important;
+}
+.credi-u-fill-color--gray-light {
+  background-color: $primary-gray-light !important;
+}
+.credi-u-color--primary {
+  color: $primary-color;
+}
+
+.credi-u-color--gray {
+  color: $primary-gray;
+}
+
+.credi-u-border-color--primary {
+  border-color: $primary-color !important;
+}
+
+.credi-u-border-color--gray-light {
+  border-color: $primary-gray-light !important;
+}
+
+.credi-u-img-logo {
+  width: 224px;
+  height: auto;
+}
+
+.credi-u-margin--none {
+  margin: 0 !important;
+}
+
+.credi-u-padding-bottom--none {
+  padding-bottom: 0!important;
+}
+
+.credi-u-padding--1 {
+  padding: 8px;
+}
+
+.credi-u-padding--2 {
+  padding: 16px !important;
+}
+
+.credi-u-hr-gray--1 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: $primary-gray;
+}
+.credi-u-hr-primary--1 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: $primary-color;
+}

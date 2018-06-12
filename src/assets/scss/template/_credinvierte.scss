@@ -1,0 +1,123 @@
+//Colors
+$primary-color: #0747A6;
+$primary-gray: #333333;
+$primary-gray-medium: #999999;
+$primary-gray-light: #F4F5F7;
+
+//Utilities
+
+.credi-u-fill-color--primary {
+  background-color: $primary-color!important;
+}
+
+.credi-u-fill-color--gray {
+  background-color: $primary-gray !important;
+}
+
+.credi-u-fill-color--gray-light {
+  background-color: $primary-gray-light !important;
+}
+
+.credi-u-fill-color--gray-medium {
+  background-color: $primary-gray-medium !important;
+}
+
+.credi-u-color--primary {
+  color: $primary-color;
+}
+
+.credi-u-color--gray {
+  color: $primary-gray;
+}
+
+.credi-u-color--gray-light {
+  color: $primary-gray-light;
+}
+
+.credi-u-border-color--primary {
+  border-color: $primary-color !important;
+}
+
+.credi-u-border-color--gray-light {
+  border-color: $primary-gray-light !important;
+}
+
+.credi-u-img-logo {
+  width: 224px;
+  height: auto;
+}
+
+.credi-u-margin--none {
+  margin: 0 !important;
+}
+
+.credi-u-padding-bottom--none {
+  padding-bottom: 0!important;
+}
+
+.credi-u-padding--1 {
+  padding: 8px;
+}
+
+.credi-u-padding--2 {
+  padding: 16px !important;
+}
+
+.credi-u-padding-top--2 {
+  padding-top: 16px !important;
+}
+
+.cred-u-padding--fields {
+  padding: 0 0 0 44px !important;
+}
+
+.cred-u-padding--fields-right {
+  padding: 0 44px 0 0 !important;
+}
+
+.cred-u-padding--fields > table > tbody > tr > th > table {
+  margin: 0px !important;
+}
+.cred-u-padding--fields-right > table > tbody > tr > th > table {
+  margin: 0px !important;
+}
+
+.credi-u-padding-bottom--none > table > tbody > tr > th > table {
+  margin: 0px !important;
+}
+
+.credi-u-hr-gray--1 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: $primary-gray;
+}
+.credi-u-hr-primary--1 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: $primary-color;
+}
+
+.cred-u-text-align--center {
+  text-align: center;
+}
+
+.cred-u-text-align--right {
+  text-align: right;
+}
+
+.cred-u-font-size--small {
+  font-size: 10px;
+}
+
+.cred-u-line-height--p {
+  line-height: 0.5s;
+}
+
+.cred-c-onerow {
+  width: 100%;
+  display: flex;
+}
+
+.cred-c-half {
+  width: 50%;
+}
